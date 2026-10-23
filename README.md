@@ -6,8 +6,6 @@ compares their output with `txt_compare`, and pauses the moment something differ
 No more hand-typing `program.exe < input.txt > out.txt` and
 `txt_compare --file1 ... --file2 ...` for every single case.
 
-![Screenshot](docs/screenshot.png)
-
 > The UI is in Chinese; this document is in English.
 
 ---
