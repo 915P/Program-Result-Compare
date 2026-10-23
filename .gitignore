@@ -1,0 +1,24 @@
+# 编译产物
+*.exe
+*.obj
+*.o
+*.res
+*.pdb
+*.ilk
+*.exp
+*.lib
+
+# 第三方 txt_compare.exe：不要随仓库分发
+vendor/
+
+# 本地设置（含本机绝对路径）
+gui_compare.ini
+
+# 发布用的构建产物
+dist/
+
+# 编辑器 / 系统垃圾
+.vs/
+.vscode/
+Thumbs.db
+desktop.ini

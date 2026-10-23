@@ -1,0 +1,9 @@
+#define IDR_TXTCOMPARE 101
+
+1 24 "app.manifest"
+
+// 只有定义了 EMBED_TXT_COMPARE 才把 txt_compare.exe 打包进 exe。
+// 编译脚本会自动检查 vendor\txt_compare.exe 是否存在再决定。
+#ifdef EMBED_TXT_COMPARE
+IDR_TXTCOMPARE RCDATA "vendor\\txt_compare.exe"
+#endif
